@@ -25,7 +25,7 @@ function ContextProvider({ children }) {
     }
 
     function decreaseQuantity() {
-        setQuantity(oldQuantity => oldQuantity - 1)
+        if (quantity !== 0) setQuantity(oldQuantity => oldQuantity - 1)
     }
 
     return (

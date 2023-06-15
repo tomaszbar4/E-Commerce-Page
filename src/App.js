@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-white h-screen lg:w-10/12 mx-auto relative">
+      <div className="bg-white h-auto min-h-screen lg:w-10/12 mx-auto relative">
         <Navbar toggleCart={toggleCart} />
         <Main isImgVisible={isImgVisible} toggleIsImgVisible={toggleIsImgVisible} />
         {isCartVisible && <Cart isCartVisible={isCartVisible} toggleCart={toggleCart} />}

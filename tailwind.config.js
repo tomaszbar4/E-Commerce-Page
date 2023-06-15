@@ -6,8 +6,12 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        'custom': '89%',
-        '50': '12.5rem'
+        '50': '12.5rem',
+        'medium': '125%',
+        'large': '150%'
+      },
+      minHeight: {
+        'custom': '90.5vh'
       },
       width: {
         '88': '22rem'
