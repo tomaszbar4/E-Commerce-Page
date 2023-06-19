@@ -32,7 +32,7 @@ export default function MaximizedImg({ toggleIsImgVisible }) {
 
 
     return (
-        <div className="absolute top-0 left-0 w-full h-full flex-col justify-center items-center bg-black/75 hidden md:flex" >
+        <div className="fixed top-0 left-0 w-full h-full flex-col justify-center items-center bg-black/75 hidden md:flex" >
             <div className="relative w-full">
                 <button className="absolute -top-12 md:right-1/4 lg:right-1/3" onClick={toggleIsImgVisible}><img src={closeIcon} className="scale-150" /></button>
             </div>
