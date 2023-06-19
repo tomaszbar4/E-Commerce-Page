@@ -50,8 +50,8 @@ export default function MaximizedImg({ toggleIsImgVisible }) {
 
 
             <div className="rounded-xl w-10/12 md:w-1/2 lg:w-1/3 absolute flex justify-center items-center ">
-                <button className="bg-white w-12 h-12 flex justify-center items-center rounded-full absolute -left-5 -top-16 lg:-top-20" onClick={nextImg}><img src={iconPrevious} /></button>
-                <button className="bg-white w-12 h-12 flex justify-center items-center rounded-full absolute -right-5 -top-16 lg:-top-20" onClick={previousImg}><img src={iconNext} /></button>
+                <button className="bg-white w-12 h-12 flex justify-center items-center rounded-full absolute -left-5 -top-16 lg:-top-20" onClick={previousImg}><img src={iconPrevious} /></button>
+                <button className="bg-white w-12 h-12 flex justify-center items-center rounded-full absolute -right-5 -top-16 lg:-top-20" onClick={nextImg}><img src={iconNext} /></button>
             </div>
         </div >
     )
